@@ -106,9 +106,8 @@
   )
 
 
-  (text "MCU Data logger\n© 2022 by PC Soft War"
-    (at 22.86 33.02 0)
-    (effects (font (size 5 5) (thickness 1) ) (justify left bottom))
+  (text "MCU Data logger\n© 2022 by PC Soft War" (at 119.38 33.02 0)
+    (effects (font (size 5 5) (thickness 1)) (justify left bottom))
     (uuid 78aa6175-c308-4d25-89fb-c27c6013765c)
   )
 
@@ -169,19 +168,19 @@
     (pin "2" (uuid a0b08886-5b14-4c09-b752-7ee6265c14f6))
   )
 
-  (symbol (lib_id "Device:R") (at 81.28 44.45 0) (unit 1)
+  (symbol (lib_id "Device:R") (at 81.28 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c63b5fc8-661c-44e7-ac4b-00c9fb9e97ae)
-    (property "Reference" "R1" (id 0) (at 83.82 43.1799 0)
+    (property "Reference" "R1" (id 0) (at 83.82 60.9599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "R" (id 1) (at 83.82 45.7199 0)
+    (property "Value" "R" (id 1) (at 83.82 63.4999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 79.502 44.45 90)
+    (property "Footprint" "" (id 2) (at 79.502 62.23 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 81.28 44.45 0)
+    (property "Datasheet" "~" (id 3) (at 81.28 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 90ca6cb2-4c87-4379-bf34-394e23cf687c))
