@@ -1054,6 +1054,11 @@
   )
 
 
+  (text "MCU Datalogger" (at 22.86 17.78 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 81f60bdf-0bc5-47ec-8bad-f3fc7d80efca)
+  )
+
   (symbol (lib_id "Device:R") (at 144.78 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 01d22717-f17f-4a5c-b3aa-b3625d2b6850)
@@ -1388,7 +1393,7 @@
     (uuid b0d6e381-d951-43ae-a927-e8561c207b82)
     (property "Reference" "Y1" (id 0) (at 138.43 120.65 0))
     (property "Value" "Crystal" (id 1) (at 138.43 123.19 0))
-    (property "Footprint" "" (id 2) (at 138.43 128.27 0)
+    (property "Footprint" "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering" (id 2) (at 138.43 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 138.43 128.27 0)
@@ -1424,7 +1429,7 @@
     (property "Value" "24LC1025" (id 1) (at 129.0194 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 127 111.76 0)
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (id 2) (at 127 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21941B.pdf" (id 3) (at 127 111.76 0)
