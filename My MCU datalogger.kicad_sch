@@ -128,7 +128,7 @@
   (symbol (lib_id "Device:C") (at 172.72 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5cfaff8f-4cb1-4092-acac-68ea8803d576)
-    (property "Reference" "C5" (id 0) (at 176.53 54.6099 0)
+    (property "Reference" "C25" (id 0) (at 176.53 54.6099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (id 1) (at 176.53 57.1499 0)
