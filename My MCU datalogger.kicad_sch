@@ -106,9 +106,9 @@
   )
 
 
-  (text "MCU Data logger by P. CARDON\n© 2022 by PC Soft War"
+  (text "MCU Data logger\n© 2022 by PC Soft War"
     (at 22.86 33.02 0)
-    (effects (font (size 5 5) (thickness 1) bold) (justify left bottom))
+    (effects (font (size 5 5) (thickness 1) ) (justify left bottom))
     (uuid 78aa6175-c308-4d25-89fb-c27c6013765c)
   )
 
