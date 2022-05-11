@@ -106,6 +106,11 @@
   )
 
 
+  (text "MCU Data logger" (at 109.22 31.75 0)
+    (effects (font (size 5 5)) (justify left bottom))
+    (uuid 78aa6175-c308-4d25-89fb-c27c6013765c)
+  )
+
   (symbol (lib_id "Device:C") (at 160.02 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 371747a2-e35e-43b9-b7ce-a597ed85ad70)
