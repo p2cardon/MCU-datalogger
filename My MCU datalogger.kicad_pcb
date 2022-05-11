@@ -6,7 +6,7 @@
 
   (paper "A4")
   (title_block
-    (title "MCU datalogger PCB")
+    (title "${project_name} PCB")
     (date "2022-05-11")
     (rev "${design_version}")
     (company "PC Soft War")
@@ -83,6 +83,7 @@
   )
 
   (property "design_version" "V 0.01")
+  (property "project_name" "MCU Datalogger with memory and clock")
 
   (net 0 "")
 
