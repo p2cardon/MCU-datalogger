@@ -106,7 +106,7 @@
   )
 
 
-  (text "MCU Data logger" (at 109.22 31.75 0)
+  (text "MCU Data logger by P. CARDON" (at 109.22 31.75 0)
     (effects (font (size 5 5)) (justify left bottom))
     (uuid 78aa6175-c308-4d25-89fb-c27c6013765c)
   )
