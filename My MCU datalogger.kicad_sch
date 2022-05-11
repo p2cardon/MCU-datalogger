@@ -109,7 +109,7 @@
   (symbol (lib_id "Device:C") (at 160.02 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 371747a2-e35e-43b9-b7ce-a597ed85ad70)
-    (property "Reference" "C?" (id 0) (at 163.83 54.6099 0)
+    (property "Reference" "C4" (id 0) (at 163.83 54.6099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (id 1) (at 163.83 57.1499 0)
@@ -128,7 +128,7 @@
   (symbol (lib_id "Device:C") (at 172.72 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5cfaff8f-4cb1-4092-acac-68ea8803d576)
-    (property "Reference" "C?" (id 0) (at 176.53 54.6099 0)
+    (property "Reference" "C5" (id 0) (at 176.53 54.6099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (id 1) (at 176.53 57.1499 0)
@@ -147,7 +147,7 @@
   (symbol (lib_id "Device:C") (at 132.08 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7b9bce85-d170-4751-8f9d-84fa2277030b)
-    (property "Reference" "C?" (id 0) (at 135.89 54.6099 0)
+    (property "Reference" "C2" (id 0) (at 135.89 54.6099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (id 1) (at 135.89 57.1499 0)
@@ -166,7 +166,7 @@
   (symbol (lib_id "Device:R") (at 81.28 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c63b5fc8-661c-44e7-ac4b-00c9fb9e97ae)
-    (property "Reference" "R?" (id 0) (at 83.82 43.1799 0)
+    (property "Reference" "R1" (id 0) (at 83.82 43.1799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (id 1) (at 83.82 45.7199 0)
@@ -185,7 +185,7 @@
   (symbol (lib_id "Device:C") (at 146.05 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c6d91237-16c9-4474-8603-2d912175aa18)
-    (property "Reference" "C?" (id 0) (at 149.86 54.6099 0)
+    (property "Reference" "C3" (id 0) (at 149.86 54.6099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (id 1) (at 149.86 57.1499 0)
@@ -204,7 +204,7 @@
   (symbol (lib_id "Device:C") (at 114.3 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ed4bd9ec-e796-40ac-a1eb-1a92d42f0ee0)
-    (property "Reference" "C?" (id 0) (at 118.11 54.6099 0)
+    (property "Reference" "C1" (id 0) (at 118.11 54.6099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C" (id 1) (at 118.11 57.1499 0)
@@ -225,23 +225,23 @@
   )
 
   (symbol_instances
-    (path "/371747a2-e35e-43b9-b7ce-a597ed85ad70"
-      (reference "C?") (unit 1) (value "C") (footprint "")
-    )
-    (path "/5cfaff8f-4cb1-4092-acac-68ea8803d576"
-      (reference "C?") (unit 1) (value "C") (footprint "")
+    (path "/ed4bd9ec-e796-40ac-a1eb-1a92d42f0ee0"
+      (reference "C1") (unit 1) (value "C") (footprint "")
     )
     (path "/7b9bce85-d170-4751-8f9d-84fa2277030b"
-      (reference "C?") (unit 1) (value "C") (footprint "")
+      (reference "C2") (unit 1) (value "C") (footprint "")
     )
     (path "/c6d91237-16c9-4474-8603-2d912175aa18"
-      (reference "C?") (unit 1) (value "C") (footprint "")
+      (reference "C3") (unit 1) (value "C") (footprint "")
     )
-    (path "/ed4bd9ec-e796-40ac-a1eb-1a92d42f0ee0"
-      (reference "C?") (unit 1) (value "C") (footprint "")
+    (path "/371747a2-e35e-43b9-b7ce-a597ed85ad70"
+      (reference "C4") (unit 1) (value "C") (footprint "")
+    )
+    (path "/5cfaff8f-4cb1-4092-acac-68ea8803d576"
+      (reference "C5") (unit 1) (value "C") (footprint "")
     )
     (path "/c63b5fc8-661c-44e7-ac4b-00c9fb9e97ae"
-      (reference "R?") (unit 1) (value "R") (footprint "")
+      (reference "R1") (unit 1) (value "R") (footprint "")
     )
   )
 )
