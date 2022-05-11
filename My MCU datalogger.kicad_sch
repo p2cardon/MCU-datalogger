@@ -1,0 +1,22 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid d4b99498-a150-4d82-8b80-29dd4f7eaa6e)
+
+  (paper "A4")
+
+  (title_block
+    (title "MCU datalogger")
+    (date "2022-05-10")
+    (rev "${xxx}")
+    (company "PC Software")
+    (comment 1 "©2022 by P. CARDON")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
