@@ -238,7 +238,7 @@
       (reference "C4") (unit 1) (value "C") (footprint "")
     )
     (path "/5cfaff8f-4cb1-4092-acac-68ea8803d576"
-      (reference "C5") (unit 1) (value "C") (footprint "")
+      (reference "C25") (unit 1) (value "C") (footprint "")
     )
     (path "/c63b5fc8-661c-44e7-ac4b-00c9fb9e97ae"
       (reference "R1") (unit 1) (value "R") (footprint "")
