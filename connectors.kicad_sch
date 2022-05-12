@@ -351,7 +351,6 @@
   )
 
 
-
   (polyline (pts (xy 63.5 25.4) (xy 63.5 101.6))
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid 4db73e7c-a1ea-4b3c-85ca-d576adfb8a81)
@@ -498,6 +497,9 @@
     (property "Datasheet" "~" (id 3) (at 120.65 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "purpose" "ICSP" (id 4) (at 120.65 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 6c5c320a-f506-4d59-8acd-8da6400e79df))
     (pin "2" (uuid 81f3d400-fe6f-4895-aa06-f48f022f7560))
     (pin "3" (uuid cf685917-a332-43db-bb24-d1ba38d5c83c))
@@ -549,6 +551,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 76.2 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "purpose" "GPIO" (id 4) (at 76.2 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 02326dae-e307-4906-bf06-768c1a084c10))
