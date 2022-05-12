@@ -343,6 +343,7 @@
   )
 
 
+
   (text "I2C" (at 97.79 95.25 0)
     (effects (font (size 2 2)) (justify left bottom))
     (uuid 913eb8da-06a7-4cfd-8841-5c0ae2d70206)
