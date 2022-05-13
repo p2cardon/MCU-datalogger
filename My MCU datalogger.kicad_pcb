@@ -4,7 +4,7 @@
     (thickness 1.6)
   )
 
-  (paper "A5")
+  (paper "User" 119.99 99.9998)
   (title_block
     (title "${project_name} PCB")
     (date "2022-05-13")
@@ -125,7 +125,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 04948c9f-325f-450e-a22c-e3f858563ecb)
-    (at 72.23125 102.235)
+    (at 68.16212 39.906872)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "My MCU datalogger.kicad_sch")
@@ -167,7 +167,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 061eccbb-85c2-491f-a173-67bf3b6ab98c)
-    (at 67.315 85.71)
+    (at 64.05712 26.208872)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "My MCU datalogger.kicad_sch")
@@ -209,7 +209,7 @@
 
   (footprint "MountingHole:MountingHole_2.1mm" (layer "F.Cu")
     (tedit 5B924765) (tstamp 1f838efe-37f4-4d03-ac92-a1f0e38c8535)
-    (at 40.64 85.832953)
+    (at 38.97212 24.318872)
     (descr "Mounting Hole 2.1mm, no annular")
     (tags "mounting hole 2.1mm no annular")
     (property "Sheetfile" "My MCU datalogger.kicad_sch")
@@ -235,7 +235,7 @@
 
   (footprint "LED_SMD:LED_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 21269d64-ef14-4ca0-ab56-4cf6d5b05e49)
-    (at 72.25125 85.725)
+    (at 68.18212 26.223872)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED")
     (property "Sheetfile" "My MCU datalogger.kicad_sch")
@@ -279,7 +279,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 34aebc39-4e95-4544-8aaa-f1f5c30a670d)
-    (at 72.23125 106.045)
+    (at 68.16212 43.368872)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "My MCU datalogger.kicad_sch")
@@ -321,7 +321,7 @@
 
   (footprint "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering" (layer "F.Cu")
     (tedit 5A0FD1B2) (tstamp 3b18423a-f487-4dc7-9911-5102114187e0)
-    (at 43.18 103.445 90)
+    (at 41.51212 40.828872 90)
     (descr "SMD Crystal SERIES SMD2520/2 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, hand-soldering, 5.0x3.2mm^2 package")
     (tags "SMD SMT crystal hand-soldering")
     (property "Sheetfile" "My MCU datalogger.kicad_sch")
@@ -373,7 +373,7 @@
 
   (footprint "Silicon-Standard:SO08-TIGHT" (layer "F.Cu")
     (tedit 5961E194) (tstamp 3d806275-b2ae-4959-ad4d-a69bbf7ffc56)
-    (at 50.165 101.6 -90)
+    (at 48.49712 40.828872 -90)
     (property "Field4" "IC-08138")
     (property "Sheetfile" "My MCU datalogger.kicad_sch")
     (property "Sheetname" "")
@@ -450,7 +450,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 3db52086-a658-4a55-88c0-8ecc24c704a1)
-    (at 50.165 87.63)
+    (at 48.56212 28.128872)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "My MCU datalogger.kicad_sch")
@@ -507,7 +507,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 41e2fdc5-1695-42c2-a2ef-8962c850bc40)
-    (at 57.4825 85.71)
+    (at 55.13962 26.208872)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "My MCU datalogger.kicad_sch")
@@ -549,7 +549,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 42a620ce-be4a-41f3-887f-9c78bf7fe305)
-    (at 72.25125 93.98)
+    (at 68.18212 33.072872)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "My MCU datalogger.kicad_sch")
@@ -591,7 +591,7 @@
 
   (footprint "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering" (layer "F.Cu")
     (tedit 5A0FD1B2) (tstamp 4d365c21-7d96-470c-8926-8681b9572c88)
-    (at 63.5 104.775)
+    (at 59.29212 43.368872)
     (descr "SMD Crystal SERIES SMD2520/2 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, hand-soldering, 5.0x3.2mm^2 package")
     (tags "SMD SMT crystal hand-soldering")
     (property "Sheetfile" "My MCU datalogger.kicad_sch")
@@ -643,7 +643,7 @@
 
   (footprint "LED_SMD:LED_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 505dd8e5-fcc4-4d42-aff3-7fd3a7387567)
-    (at 77.1675 85.725)
+    (at 72.32462 26.223872)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED")
     (property "Sheetfile" "My MCU datalogger.kicad_sch")
@@ -687,7 +687,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp 50ae58f9-6e10-42e0-80b3-5502e812dc08)
-    (at 45.095 111.125 90)
+    (at 43.41712 47.813872 90)
     (descr "Through hole straight pin header, 1x09, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x09 2.54mm single row")
     (property "Sheetfile" "connectors.kicad_sch")
@@ -749,7 +749,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 63ccac19-691a-4459-b0c3-dc2aba0ea87c)
-    (at 72.25125 98.425)
+    (at 68.18212 36.474872)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "My MCU datalogger.kicad_sch")
@@ -791,7 +791,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 76bbe6ba-5f53-4b70-a539-2361d58aff42)
-    (at 52.4275 106.68)
+    (at 50.75962 45.273872)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "My MCU datalogger.kicad_sch")
@@ -802,7 +802,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6df27271-b7ac-43f1-aeaf-662dc640661b)
     )
-    (fp_text value "10K" (at 0 1.65) (layer "F.Fab")
+    (fp_text value "10K" (at 0 1.015) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f583c6cb-42e6-4c8f-951a-dfb47bcb9b72)
     )
@@ -833,7 +833,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 7c3dc386-4276-421e-b995-0e699f6f33d9)
-    (at 48.26 106.68)
+    (at 46.59212 45.273872)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "My MCU datalogger.kicad_sch")
@@ -844,7 +844,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp acd759fe-ad56-4020-8769-17de88edf82f)
     )
-    (fp_text value "10K" (at 0 1.65) (layer "F.Fab")
+    (fp_text value "10K" (at 0 1.015) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 46bfce60-2de8-4c58-9dcb-f131278dec63)
     )
@@ -875,7 +875,7 @@
 
   (footprint "MountingHole:MountingHole_2.1mm" (layer "F.Cu")
     (tedit 5B924765) (tstamp 82b67fe4-8c80-4361-9e1f-e5fc1270b6e3)
-    (at 86.36 85.832953)
+    (at 81.51712 24.318872)
     (descr "Mounting Hole 2.1mm, no annular")
     (tags "mounting hole 2.1mm no annular")
     (property "Sheetfile" "My MCU datalogger.kicad_sch")
@@ -901,7 +901,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 95c501dc-ca8b-43ad-8293-e8e11cdc857b)
-    (at 77.1675 90.17)
+    (at 72.39 29.669588)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "My MCU datalogger.kicad_sch")
@@ -943,7 +943,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp a23f6409-fd89-43c2-be4f-d926421d3b76)
-    (at 43.18 90.805)
+    (at 41.51212 29.398872)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (property "Sheetfile" "My MCU datalogger.kicad_sch")
@@ -990,7 +990,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp a2e6ef94-1b4f-468d-b2cf-f9c0c6c4988d)
-    (at 50.165 94.615)
+    (at 48.49712 34.478872)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "My MCU datalogger.kicad_sch")
@@ -1047,7 +1047,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp a32ffa27-3c05-4618-95eb-44ff91934259)
-    (at 77.1675 93.98)
+    (at 72.39 33.02)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "My MCU datalogger.kicad_sch")
@@ -1089,7 +1089,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp ab812c91-6b6b-4f51-a6b2-3dec2efe1582)
-    (at 81.915 90.185)
+    (at 77.07212 28.778872)
     (descr "Through hole straight pin header, 2x03, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x03 2.54mm double row")
     (property "Sheetfile" "connectors.kicad_sch")
@@ -1147,7 +1147,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp ae36c45b-cc20-49cb-b6ce-da7419bf90a4)
-    (at 72.25125 90.17)
+    (at 68.18212 29.670872)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "My MCU datalogger.kicad_sch")
@@ -1189,7 +1189,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp b2491667-78cb-4333-b95f-5ab2e044e1b5)
-    (at 62.39875 85.71)
+    (at 59.61212 26.208872)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "My MCU datalogger.kicad_sch")
@@ -1231,7 +1231,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp b9399656-3383-42ce-ad71-f8822ec7c6a2)
-    (at 70.495 111.125 90)
+    (at 68.81712 47.813872 90)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
     (property "Sheetfile" "connectors.kicad_sch")
@@ -1282,7 +1282,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp bf98bbc4-6ac6-47e8-b49a-67ce507be296)
-    (at 84.46 99.07)
+    (at 79.61212 37.653872)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
     (property "Sheetfile" "connectors.kicad_sch")
@@ -1333,7 +1333,7 @@
 
   (footprint "digikey-footprints:TQFP-32_7x7mm" (layer "F.Cu")
     (tedit 5D28AA5E) (tstamp ecc874fb-7291-420a-9df9-0820dafaf001)
-    (at 63.5 95.25)
+    (at 58.90212 34.383872)
     (descr "http://www.atmel.com/Images/Atmel-8826-SEEPROM-PCB-Mounting-Guidelines-Surface-Mount-Packages-ApplicationNote.pdf")
     (property "Category" "Integrated Circuits (ICs)")
     (property "DK_Datasheet_Link" "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326")
@@ -1348,7 +1348,7 @@
     (property "Status" "Active")
     (path "/ff61794e-4165-4898-a842-2e510f945c6f")
     (attr smd)
-    (fp_text reference "U4" (at 0 -6.25) (layer "F.SilkS")
+    (fp_text reference "U4" (at -0.675 -4.655) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 143687fa-93ff-49b1-a424-2e60042483ae)
     )
@@ -1447,7 +1447,7 @@
 
   (footprint "MountingHole:MountingHole_2.1mm" (layer "F.Cu")
     (tedit 5B924765) (tstamp f6128cc5-069d-492e-a35d-9062f64657ee)
-    (at 40.64 111.232953)
+    (at 38.97212 49.718872)
     (descr "Mounting Hole 2.1mm, no annular")
     (tags "mounting hole 2.1mm no annular")
     (property "Sheetfile" "My MCU datalogger.kicad_sch")
@@ -1473,7 +1473,7 @@
 
   (footprint "MountingHole:MountingHole_2.1mm" (layer "F.Cu")
     (tedit 5B924765) (tstamp fafde936-b52f-4958-b720-d9818ae25aa0)
-    (at 86.36 111.232953)
+    (at 81.51712 49.718872)
     (descr "Mounting Hole 2.1mm, no annular")
     (tags "mounting hole 2.1mm no annular")
     (property "Sheetfile" "My MCU datalogger.kicad_sch")
@@ -1497,6 +1497,13 @@
     (pad "" np_thru_hole circle (at 0 0) (size 2.1 2.1) (drill 2.1) (layers *.Cu *.Mask) (tstamp 551251d3-ced4-4ac6-bc64-6fd274681971))
   )
 
-  (gr_rect (start 38.328951 83.185) (end 89.128951 113.665) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp e6121b24-354a-44d7-b723-470a02a459ab))
+  (gr_arc (start 78.97712 24.318872) (mid 83.313171 22.522821) (end 81.51712 26.858872) (layer "Edge.Cuts") (width 0.1) (tstamp 0a75b10a-dbf0-449a-9802-6c4f556faddc))
+  (gr_line (start 81.51712 26.858872) (end 81.51712 47.178872) (layer "Edge.Cuts") (width 0.1) (tstamp 592dfbc4-2bbb-4795-99f5-64e8f3fd217d))
+  (gr_arc (start 38.97212 26.858872) (mid 37.176069 22.522821) (end 41.51212 24.318872) (layer "Edge.Cuts") (width 0.1) (tstamp 61f501bc-e374-4e60-a7c6-b9e45dc80dc9))
+  (gr_line (start 41.51212 24.318872) (end 78.97712 24.318872) (layer "Edge.Cuts") (width 0.1) (tstamp 95f00978-ac29-411f-a16a-a476cfc50442))
+  (gr_arc (start 81.51712 47.178872) (mid 83.313171 51.514923) (end 78.97712 49.718872) (layer "Edge.Cuts") (width 0.1) (tstamp 9ccfba26-dcbb-4d32-938b-cd8a5c652f77))
+  (gr_arc (start 41.51212 49.718872) (mid 37.176069 51.514923) (end 38.97212 47.178872) (layer "Edge.Cuts") (width 0.1) (tstamp c40a69f4-2d77-4c00-bea0-4adf131ed219))
+  (gr_line (start 41.51212 49.718872) (end 78.97712 49.718872) (layer "Edge.Cuts") (width 0.1) (tstamp dc0eee17-d05a-421d-b5c0-f338b8fc01c5))
+  (gr_line (start 38.97212 26.858872) (end 38.97212 47.178872) (layer "Edge.Cuts") (width 0.1) (tstamp fefd0d0c-5c37-4ddf-8976-19f7ed291c8f))
 
 )
