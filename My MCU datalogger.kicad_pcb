@@ -4,13 +4,13 @@
     (thickness 1.6)
   )
 
-  (paper "A4")
+  (paper "A5")
   (title_block
     (title "${project_name} PCB")
-    (date "2022-05-11")
+    (date "2022-05-13")
     (rev "${design_version}")
     (company "PC Soft War")
-    (comment 1 "© 2022 by P. CARDON")
+    (comment 1 "2-Layer PCB Version")
   )
 
   (layers
