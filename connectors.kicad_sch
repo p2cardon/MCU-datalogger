@@ -491,7 +491,7 @@
     (uuid 4f1d2a0f-5d3b-4d6a-a2e9-82abd97bddec)
     (property "Reference" "J4" (id 0) (at 121.92 64.77 0))
     (property "Value" "Conn_02x03_Odd_Even" (id 1) (at 121.92 67.31 0))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" (id 2) (at 120.65 73.66 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" (id 2) (at 120.65 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 120.65 73.66 0)
