@@ -798,7 +798,6 @@
     )
   )
 
-
   (junction (at 49.53 116.84) (diameter 0) (color 0 0 0 0)
     (uuid 0ca6ffeb-1471-46f7-be7f-2c80d71ee0e9)
   )
@@ -1527,7 +1526,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 78f36a5f-477f-474b-8404-67939f5d9bbd)
   )
-  (label "DB" (at 189.23 66.04 0)
+  (label "D8" (at 189.23 66.04 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7a36c29c-24bf-4cec-ae96-f480eca1bddf)
   )
